@@ -1,0 +1,52 @@
+{
+    "name": "@elizaos/plugin-edufi",
+    "version": "0.1.0",
+    "type": "module",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        "./package.json": "./package.json",
+        ".": {
+            "import": {
+                "@elizaos/source": "./src/index.ts",
+                "types": "./dist/index.d.ts",
+                "default": "./dist/index.js"
+            }
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "dependencies": {
+        "@elizaos/core": "workspace:*",
+        "@uniswap/sdk-core": "^3.2.2",
+        "@uniswap/v3-sdk": "^3.9.0",
+        "axios": "^1.8.3",
+        "bignumber.js": "^9.1.1",
+        "combined-stream": "^1.0.8",
+        "ethers": "^6.7.1",
+        "form-data": "^4.0.0",
+        "graphql": "^16.8.0",
+        "graphql-request": "^6.1.0",
+        "jsbi": "v3.2.5",
+        "tsup": "8.3.5",
+        "viem": "^2.7.9",
+        "vitest": "2.1.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.4",
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3",
+        "vitest": "^1.2.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
