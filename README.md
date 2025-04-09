@@ -52,7 +52,7 @@ Our platform leverages a Multi-Agent System architecture where each agent specia
 
 - 💬 Natural language processing
 - 🔍 RAG (Retrieval-Augmented Generation) Knowledge Base
-- 🤖 Multi-Agent System (MAS): 18 AI Agents included.
+- 🤖 Multi-Agent System (MAS): AI Agents - *(Coming Soon)*
 - 🔅 Integrated Website & Web App - *(Coming Soon)*
 - 🛠️ Full-featured Discord, Twitter and Telegram connectors - *(Coming Soon)*
 - 🔗 Support for every model (OpenAI, etc.)
